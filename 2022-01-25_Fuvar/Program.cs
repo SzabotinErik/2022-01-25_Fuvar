@@ -7,6 +7,8 @@ using System.IO;
 
 namespace _2022_01_25_Fuvar
 {
+
+
     class Program
     {
         static void Main(string[] args)
