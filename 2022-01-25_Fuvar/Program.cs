@@ -19,6 +19,18 @@ namespace _2022_01_25_Fuvar
                 fuvarok.Add(new Fuvar(sor));
             }
             Console.WriteLine($"3.feladat: {fuvarok.Count}");
+            double kapot = 0;
+            int fordulo = 0;
+            foreach (var i in fuvarok)
+            {
+                if (i.taxiid==6185)
+                {
+                    kapot = kapot + i.viteldij + i.Borravalo;
+                    fordulo++;
+
+                }
+            }
+            Console.WriteLine($"4.feladat: {fordulo} fuvat alat: {kapot}$");
             Console.ReadKey();
         }
     }
