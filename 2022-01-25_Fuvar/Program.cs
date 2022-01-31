@@ -65,6 +65,12 @@ namespace _2022_01_25_Fuvar
             Console.WriteLine($"\t bankártya: {vitato} fuvar");
             Console.WriteLine($"\t bankártya: {ingyen} fuvar");
             Console.WriteLine($"\t bankártya: {ismeretlen} fuvar");
+            double tav = 0;
+            foreach (var i in fuvarok)
+            {
+                tav = i.tavolsag + tav;
+            }
+            Console.WriteLine($"6.feladat: {tav} km");
             Console.ReadKey();
         }
     }
