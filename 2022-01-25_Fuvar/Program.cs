@@ -71,6 +71,14 @@ namespace _2022_01_25_Fuvar
                 tav = i.tavolsag + tav;
             }
             Console.WriteLine($"6.feladat: {tav} km");
+            int ido = 0;
+            foreach (var i in fuvarok)
+            {
+                if (i.idotartam>ido)
+                {
+
+                }
+            }
             Console.ReadKey();
         }
     }
