@@ -70,7 +70,13 @@ namespace _2022_01_25_Fuvar
             {
                 tav = i.tavolsag + tav;
             }
-            Console.WriteLine($"6.feladat: {tav} km");
+            Console.WriteLine($"6.feladat: {tav*1.6} km");
+            int maxindex = 0;
+            for (int i = 0; i < fuvarok.Count; i++)
+            {
+
+            }
+
 
             Console.ReadKey();
         }
